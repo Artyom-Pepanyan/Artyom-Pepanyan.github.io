@@ -1,25 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .position_a {
     position: absolute;
 }
 .container {
+    width: 1366px;
+
     position: relative;
     margin: 0 auto;
-    width: 100vw;
-    height: 100vh;
+   
 }
 .title {
     color: rgb(0, 0, 0); 
-    width: 470px;
-    height: 65px;
-    left: 470px;
-    top: 11px;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     font-style: normal;
     font-weight: normal;
     font-size: 52px;
     line-height: 61px;    
 }
-#ellipse1 {
+.octopus__head {
     color: red;
     width: 483px;
     height: 483px;
@@ -30,23 +30,22 @@
 
 }
 .ellipse {
-    text-align: center;
+    
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    width: 62.03px;
+    width: 60px;
     height: 60px;
     border-radius: 100%;
 }
 
-.ellipse._r {
+.ellipse._red {
     border: 2px solid #000000;
     box-sizing: border-box;
     color: red;
     background-color: red;
 }
-.ellipse._y{
+.ellipse._yellow{
     border: 2px solid #000000;
     box-sizing: border-box;
     color: yellow;
@@ -164,14 +163,13 @@
     top: 656px;
 }
 
-.ellipse._17{
+.octopus__eye{
     border: 2px solid yellowgreen;
     box-sizing: border-box;
     color: black;
-    left: 929px;
-    top: 308px;
-    background-color:black;
-    border-radius: 100%;
+    left: 70%;
+    top: 25%;
+    background-color:black;    
 }
 .value {
     
@@ -179,7 +177,6 @@
     background-color:transparent;
     width: 14px;
     height: 28px;
-    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -188,11 +185,10 @@
 }
 
 .text {
-    color: black;
+    color: white;
     background-color:transparent;
     width: 14px;
     height: 28px;
-    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -209,33 +205,42 @@
     text-align: center;
 }
 
-.text._8 {
+.information {
+    position: absolute;
+    bottom: 0;
+}
+
+.information__text {
+    position: absolute;
+    color: black;
+ 
+}
+
+.information__text._1 {
     position: absolute;
     width: 124px;
     left: 116px;
-    top: 762px;
-    
+    top: 762px
 }
 
-.text._9 {
+.information__text._2 {
     position: absolute;
     width: 94px;
     left: 116px;
-    top: 850px
+    top: 850px;
 }
 
-.text._10 {
+.information__text._3 {
     position: absolute;
     width: 189px;
     left: 641px;
     top: 774px;
 }
 
-.text._11 {
+.information__text._4 {
     position: absolute;
     width: 461px;
     left: 512px;
     top: 806px;
 }
-
 
