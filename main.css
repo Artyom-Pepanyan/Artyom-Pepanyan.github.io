@@ -1,0 +1,241 @@
+.position_a {
+    position: absolute;
+}
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+.title {
+    color: rgb(0, 0, 0); 
+    width: 470px;
+    height: 65px;
+    left: 470px;
+    top: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 61px;    
+}
+#ellipse1 {
+    color: red;
+    width: 483px;
+    height: 483px;
+    left: 600px;
+    top: 208px;
+    background-color: red;
+    border-radius: 100%;
+
+}
+.ellipse {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 62.03px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.ellipse._r {
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    color: red;
+    background-color: red;
+}
+.ellipse._y{
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    color: yellow;
+    background-color: yellow;
+}
+.ellipse._1 {
+    left: 30px;
+    top: 196px;
+    
+}
+.ellipse._2 {
+    left: 158px;
+    top: 260px;
+}
+.ellipse._3 {
+    left: 92px;
+    top: 338px;
+}
+.ellipse._4 {
+    left: 138px;
+    top: 419px;
+}
+.ellipse._5 {
+    left: 84px;
+    top: 498px;
+}
+.ellipse._6 {
+    left: 64px;
+    top: 572px;
+}
+.ellipse._7 {
+    left: 115px;
+    top: 646px;
+}
+.ellipse._8 {
+    left: 34px;
+    top: 832px;
+}
+.ellipse._9{
+    left: 1169px;
+    top: 195px;  
+}
+.ellipse._10{
+    left: 1296px;
+    top: 260px;  
+}
+.ellipse._11{
+    left: 1170px;
+    top: 337px;  
+}
+.ellipse._12{
+    left: 1337px;
+    top: 420px;  
+}
+.ellipse._13{
+    left: 1170px;
+    top: 498px;  
+}
+.ellipse._14{
+    left: 1296px;
+    top: 571px;  
+}
+.ellipse._15{
+    left: 1169px;
+    top: 647px;  
+}
+.ellipse._16{
+    left: 34px;
+    top: 746px;  
+}
+.rectangle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    color: red;
+    background-color: red;
+    height: 35px;
+
+}
+.rectangle._1 {
+    width: 776px;
+    left: 66px;
+    top: 208px;
+}
+.rectangle._2 {
+    width: 511px;
+    left: 189px;
+    top: 272px;
+}
+.rectangle._3 {
+    width: 733px;
+    left: 109px;
+    top: 350px;
+}
+.rectangle._4 {
+    width: 696px;
+    left: 146px;
+    top: 432px;
+}
+.rectangle._5 {
+    width: 732px;
+    left: 109px;
+    top: 513px
+}
+.rectangle._6 {
+    width: 755px;
+    left: 86px;
+    top: 584px;
+}
+.rectangle._7 {
+    width: 716px;
+    left: 126px;
+    top: 656px;
+}
+
+.ellipse._17{
+    border: 2px solid yellowgreen;
+    box-sizing: border-box;
+    color: black;
+    left: 929px;
+    top: 308px;
+    background-color:black;
+    border-radius: 100%;
+}
+.value {
+    
+    color: black;
+    background-color:transparent;
+    width: 14px;
+    height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+
+.text {
+    color: black;
+    background-color:transparent;
+    width: 14px;
+    height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.rectangle > span {
+    width: 100%;
+    text-align: center;
+}
+
+.ellipse > span {
+    width: 100%;
+    text-align: center;
+}
+
+.text._8 {
+    position: absolute;
+    width: 124px;
+    left: 116px;
+    top: 762px;
+    
+}
+
+.text._9 {
+    position: absolute;
+    width: 94px;
+    left: 116px;
+    top: 850px
+}
+
+.text._10 {
+    position: absolute;
+    width: 189px;
+    left: 641px;
+    top: 774px;
+}
+
+.text._11 {
+    position: absolute;
+    width: 461px;
+    left: 512px;
+    top: 806px;
+}
+
+
