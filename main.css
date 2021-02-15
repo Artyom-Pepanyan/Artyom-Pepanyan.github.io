@@ -6,7 +6,6 @@ body {
 }
 .container {
     width: 1366px;
-
     position: relative;
     margin: 0 auto;
    
@@ -44,6 +43,7 @@ body {
     box-sizing: border-box;
     color: red;
     background-color: red;
+    z-index: 1;
 }
 .ellipse._yellow{
     border: 2px solid #000000;
@@ -52,65 +52,64 @@ body {
     background-color: yellow;
 }
 .ellipse._1 {
-    left: 30px;
-    top: 196px;
-    
+    left: 203px;
+    top: 195px;
 }
 .ellipse._2 {
-    left: 158px;
-    top: 260px;
+    left: 86px;
+    top: 264px;
 }
 .ellipse._3 {
-    left: 92px;
-    top: 338px;
+    left: 86px;
+    top: 337px
 }
 .ellipse._4 {
-    left: 138px;
-    top: 419px;
+    left: 371px;
+    top: 416px
 }
 .ellipse._5 {
-    left: 84px;
-    top: 498px;
+    left: 482px;
+    top: 498px
 }
 .ellipse._6 {
-    left: 64px;
-    top: 572px;
+    left: 371px;
+    top: 573px;
 }
 .ellipse._7 {
-    left: 115px;
-    top: 646px;
+    left: 563px;
+    top: 644px;
 }
 .ellipse._8 {
     left: 34px;
     top: 832px;
 }
 .ellipse._9{
-    left: 1169px;
-    top: 195px;  
+    left: 86px;
+    top: 195px;     
 }
 .ellipse._10{
-    left: 1296px;
-    top: 260px;  
+    left: 24px;
+    top: 264px; 
 }
 .ellipse._11{
-    left: 1170px;
-    top: 337px;  
+    left: 24px;
+    top: 337px; 
 }
 .ellipse._12{
-    left: 1337px;
-    top: 420px;  
+    left: 250px;
+    top: 414px; 
 }
 .ellipse._13{
-    left: 1170px;
+    left: 311px;
     top: 498px;  
 }
 .ellipse._14{
-    left: 1296px;
+    left: 204px;
     top: 571px;  
 }
 .ellipse._15{
-    left: 1169px;
-    top: 647px;  
+    left: 250px;
+    top: 640px;      
 }
 .ellipse._16{
     left: 34px;
@@ -128,14 +127,14 @@ body {
 
 }
 .rectangle._1 {
-    width: 776px;
-    left: 66px;
+    width: 592px;
+    left: 250px;
     top: 208px;
 }
 .rectangle._2 {
-    width: 511px;
-    left: 189px;
-    top: 272px;
+    width: 590px;
+    left: 122px;
+    top: 279px;;
 }
 .rectangle._3 {
     width: 733px;
@@ -143,26 +142,56 @@ body {
     top: 350px;
 }
 .rectangle._4 {
-    width: 696px;
-    left: 146px;
-    top: 432px;
+    width: 256px;
+    left: 401px;
+    top: 428px;
 }
 .rectangle._5 {
-    width: 732px;
-    left: 109px;
-    top: 513px
+    width: 242px;
+    left: 512px;
+    top: 511px;
 }
 .rectangle._6 {
-    width: 755px;
-    left: 86px;
-    top: 584px;
+    width: 310px;
+    left: 401px;
+    top: 583px;
 }
 .rectangle._7 {
-    width: 716px;
-    left: 126px;
+    width: 252px;
+    left: 602px;
     top: 656px;
 }
-
+.scale {
+    position: absolute;
+    color: black;
+    background-color: black;
+    height: 2px;
+}
+.scale._1 {
+    width: 104px;
+    left: 116px;
+    top: 221px;
+}
+.scale._4 {
+    width: 252px;
+    left: 122px;
+    top: 446px;
+}
+.scale._5 {
+    width: 360px;
+    left: 122px;
+    top: 523px;
+}
+.scale._6 {
+    width: 250px;
+    left: 122px;
+    top: 600px;
+}
+.scale._7 {
+    width: 451px;
+    left: 122px;
+    top: 669px;
+}
 .octopus__eye{
     border: 2px solid yellowgreen;
     box-sizing: border-box;
