@@ -265,9 +265,3 @@ body {
   left: 512px;
   top: 806px;
 }
-
-@media screen and (min-height: 480px) {
-  .body {
-    width: 100px;
-  }
-}
