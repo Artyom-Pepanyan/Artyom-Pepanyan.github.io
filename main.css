@@ -268,6 +268,6 @@ body {
 
 @media screen and (min-height: 480px) {
   .body {
-    width: 320px;
+    width: 100px;
   }
 }
