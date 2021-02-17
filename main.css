@@ -1,275 +1,273 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .position_a {
-    position: absolute;
+  position: absolute;
 }
 .container {
-    width: 1366px;
-    position: relative;
-    margin: 0 auto;
-   
+  width: 1366px;
+  position: relative;
+  margin: 0 auto;
 }
 .title {
-    color: rgb(0, 0, 0); 
-    text-align: center;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 52px;
-    line-height: 61px;    
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 61px;
 }
 .octopus__head {
-    color: red;
-    width: 483px;
-    height: 483px;
-    left: 600px;
-    top: 208px;
-    background-color: red;
-    border-radius: 100%;
-
+  color: red;
+  width: 483px;
+  height: 483px;
+  left: 600px;
+  top: 208px;
+  background-color: red;
+  border-radius: 100%;
 }
 .ellipse {
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
 }
 
-.ellipse._red {
-    border: 2px solid #000000;
-    box-sizing: border-box;
-    color: red;
-    background-color: red;
-    z-index: 1;
+.ellipse_red {
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  color: red;
+  background-color: red;
+  z-index: 1;
 }
-.ellipse._yellow{
-    border: 2px solid #000000;
-    box-sizing: border-box;
-    color: yellow;
-    background-color: yellow;
+.ellipse_yellow {
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  color: yellow;
+  background-color: yellow;
 }
-.ellipse._1 {
-    left: 203px;
-    top: 195px;
+.ellipse-1 {
+  left: 203px;
+  top: 195px;
 }
-.ellipse._2 {
-    left: 86px;
-    top: 264px;
+.ellipse-2 {
+  left: 86px;
+  top: 264px;
 }
-.ellipse._3 {
-    left: 86px;
-    top: 337px
+.ellipse-3 {
+  left: 86px;
+  top: 337px;
 }
-.ellipse._4 {
-    left: 371px;
-    top: 416px
+.ellipse-4 {
+  left: 371px;
+  top: 416px;
 }
-.ellipse._5 {
-    left: 482px;
-    top: 498px
+.ellipse-5 {
+  left: 482px;
+  top: 498px;
 }
-.ellipse._6 {
-    left: 371px;
-    top: 573px;
+.ellipse-6 {
+  left: 371px;
+  top: 573px;
 }
-.ellipse._7 {
-    left: 563px;
-    top: 644px;
+.ellipse-7 {
+  left: 563px;
+  top: 644px;
 }
-.ellipse._8 {
-    left: 34px;
-    top: 832px;
+.ellipse-8 {
+  left: 34px;
+  top: 832px;
 }
-.ellipse._9{
-    left: 86px;
-    top: 195px;     
+.ellipse-9 {
+  left: 86px;
+  top: 195px;
 }
-.ellipse._10{
-    left: 24px;
-    top: 264px; 
+.ellipse-10 {
+  left: 24px;
+  top: 264px;
 }
-.ellipse._11{
-    left: 24px;
-    top: 337px; 
+.ellipse-11 {
+  left: 24px;
+  top: 337px;
 }
-.ellipse._12{
-    left: 250px;
-    top: 414px; 
+.ellipse-12 {
+  left: 250px;
+  top: 414px;
 }
-.ellipse._13{
-    left: 311px;
-    top: 498px;  
+.ellipse-13 {
+  left: 311px;
+  top: 498px;
 }
-.ellipse._14{
-    left: 204px;
-    top: 571px;  
+.ellipse-14 {
+  left: 204px;
+  top: 571px;
 }
-.ellipse._15{
-    left: 250px;
-    top: 640px;      
+.ellipse-15 {
+  left: 250px;
+  top: 640px;
 }
-.ellipse._16{
-    left: 34px;
-    top: 746px;  
+.ellipse-16 {
+  left: 34px;
+  top: 746px;
 }
 .rectangle {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    color: red;
-    background-color: red;
-    height: 35px;
-
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  color: red;
+  background-color: red;
+  height: 35px;
 }
-.rectangle._1 {
-    width: 592px;
-    left: 250px;
-    top: 208px;
+.rectangle-1 {
+  width: 592px;
+  left: 250px;
+  top: 208px;
 }
-.rectangle._2 {
-    width: 590px;
-    left: 122px;
-    top: 279px;;
+.rectangle-2 {
+  width: 590px;
+  left: 122px;
+  top: 279px;
 }
-.rectangle._3 {
-    width: 733px;
-    left: 109px;
-    top: 350px;
+.rectangle-3 {
+  width: 733px;
+  left: 109px;
+  top: 350px;
 }
-.rectangle._4 {
-    width: 256px;
-    left: 401px;
-    top: 428px;
+.rectangle-4 {
+  width: 256px;
+  left: 401px;
+  top: 428px;
 }
-.rectangle._5 {
-    width: 242px;
-    left: 512px;
-    top: 511px;
+.rectangle-5 {
+  width: 242px;
+  left: 512px;
+  top: 511px;
 }
-.rectangle._6 {
-    width: 310px;
-    left: 401px;
-    top: 583px;
+.rectangle-6 {
+  width: 310px;
+  left: 401px;
+  top: 583px;
 }
-.rectangle._7 {
-    width: 252px;
-    left: 602px;
-    top: 656px;
+.rectangle-7 {
+  width: 252px;
+  left: 602px;
+  top: 656px;
 }
 .scale {
-    position: absolute;
-    color: black;
-    background-color: black;
-    height: 2px;
+  position: absolute;
+  color: black;
+  background-color: black;
+  height: 2px;
 }
-.scale._1 {
-    width: 104px;
-    left: 116px;
-    top: 221px;
+.scale-1 {
+  width: 104px;
+  left: 116px;
+  top: 221px;
 }
-.scale._4 {
-    width: 252px;
-    left: 122px;
-    top: 446px;
+.scale-4 {
+  width: 252px;
+  left: 122px;
+  top: 446px;
 }
-.scale._5 {
-    width: 360px;
-    left: 122px;
-    top: 523px;
+.scale-5 {
+  width: 360px;
+  left: 122px;
+  top: 523px;
 }
-.scale._6 {
-    width: 250px;
-    left: 122px;
-    top: 600px;
+.scale-6 {
+  width: 250px;
+  left: 122px;
+  top: 600px;
 }
-.scale._7 {
-    width: 451px;
-    left: 122px;
-    top: 669px;
+.scale-7 {
+  width: 451px;
+  left: 122px;
+  top: 669px;
 }
-.octopus__eye{
-    border: 2px solid yellowgreen;
-    box-sizing: border-box;
-    color: black;
-    left: 70%;
-    top: 25%;
-    background-color:black;    
+.octopus__eye {
+  border: 2px solid yellowgreen;
+  box-sizing: border-box;
+  color: black;
+  left: 70%;
+  top: 25%;
+  background-color: black;
 }
 .value {
-    
-    color: black;
-    background-color:transparent;
-    width: 14px;
-    height: 28px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    
+  color: black;
+  background-color: transparent;
+  width: 14px;
+  height: 28px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .text {
-    color: white;
-    background-color:transparent;
-    width: 14px;
-    height: 28px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
+  color: white;
+  background-color: transparent;
+  width: 14px;
+  height: 28px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .rectangle > span {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .ellipse > span {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .information {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .information__text {
-    position: absolute;
-    color: black;
- 
+  position: absolute;
+  color: black;
 }
 
-.information__text._1 {
-    position: absolute;
-    width: 124px;
-    left: 116px;
-    top: 762px
+.information__text-1 {
+  position: absolute;
+  width: 124px;
+  left: 116px;
+  top: 762px;
 }
 
-.information__text._2 {
-    position: absolute;
-    width: 94px;
-    left: 116px;
-    top: 850px;
+.information__text-2 {
+  position: absolute;
+  width: 94px;
+  left: 116px;
+  top: 850px;
 }
 
-.information__text._3 {
-    position: absolute;
-    width: 189px;
-    left: 641px;
-    top: 774px;
+.information__text-3 {
+  position: absolute;
+  width: 189px;
+  left: 641px;
+  top: 774px;
 }
 
-.information__text._4 {
-    position: absolute;
-    width: 461px;
-    left: 512px;
-    top: 806px;
+.information__text-4 {
+  position: absolute;
+  width: 461px;
+  left: 512px;
+  top: 806px;
 }
 
+@media screen and (min-height: 480px) {
+  .body {
+    width: 320px;
+  }
+}
