@@ -1,14 +1,21 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .position_a {
   position: absolute;
 }
+
 .container {
   width: 1366px;
   position: relative;
   margin: 0 auto;
 }
+
+.octopus {
+  top: 10px;
+}
+
 .title {
   color: rgb(0, 0, 0);
   text-align: center;
@@ -17,8 +24,8 @@ body {
   font-size: 52px;
   line-height: 61px;
 }
+
 .octopus__head {
-  color: red;
   width: 483px;
   height: 483px;
   left: 600px;
@@ -26,6 +33,7 @@ body {
   background-color: red;
   border-radius: 100%;
 }
+
 .ellipse {
   display: flex;
   align-items: center;
@@ -35,159 +43,178 @@ body {
   border-radius: 100%;
 }
 
-.ellipse_red {
+.ellipse_now {
   border: 2px solid #000000;
   box-sizing: border-box;
-  color: red;
   background-color: red;
   z-index: 1;
 }
-.ellipse_yellow {
+
+.ellipse_future {
   border: 2px solid #000000;
   box-sizing: border-box;
-  color: yellow;
   background-color: yellow;
+  z-index: 1;
 }
+
 .ellipse-1 {
   left: 203px;
   top: 195px;
 }
+
 .ellipse-2 {
   left: 86px;
   top: 264px;
 }
+
 .ellipse-3 {
   left: 86px;
   top: 337px;
 }
+
 .ellipse-4 {
   left: 371px;
   top: 416px;
 }
+
 .ellipse-5 {
   left: 482px;
   top: 498px;
 }
+
 .ellipse-6 {
   left: 371px;
   top: 573px;
 }
+
 .ellipse-7 {
   left: 563px;
   top: 644px;
 }
+
 .ellipse-8 {
   left: 34px;
   top: 832px;
 }
+
 .ellipse-9 {
   left: 86px;
   top: 195px;
 }
-.ellipse-10 {
-  left: 24px;
-  top: 264px;
-}
-.ellipse-11 {
-  left: 24px;
-  top: 337px;
-}
+
 .ellipse-12 {
   left: 250px;
   top: 414px;
 }
+
 .ellipse-13 {
   left: 311px;
   top: 498px;
 }
+
 .ellipse-14 {
   left: 204px;
   top: 571px;
 }
+
 .ellipse-15 {
   left: 250px;
   top: 640px;
 }
+
 .ellipse-16 {
   left: 34px;
   top: 746px;
 }
+
 .rectangle {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  color: red;
   background-color: red;
   height: 35px;
 }
+
 .rectangle-1 {
   width: 592px;
   left: 250px;
   top: 208px;
 }
+
 .rectangle-2 {
   width: 590px;
   left: 122px;
   top: 279px;
 }
+
 .rectangle-3 {
   width: 733px;
   left: 109px;
   top: 350px;
 }
+
 .rectangle-4 {
   width: 256px;
   left: 401px;
   top: 428px;
 }
+
 .rectangle-5 {
   width: 242px;
   left: 512px;
   top: 511px;
 }
+
 .rectangle-6 {
   width: 310px;
   left: 401px;
   top: 583px;
 }
+
 .rectangle-7 {
   width: 252px;
   left: 602px;
   top: 656px;
 }
+
 .scale {
   position: absolute;
-  color: black;
   background-color: black;
   height: 2px;
 }
+
 .scale-1 {
   width: 104px;
   left: 116px;
   top: 221px;
 }
+
 .scale-4 {
   width: 252px;
   left: 122px;
   top: 446px;
 }
+
 .scale-5 {
   width: 360px;
   left: 122px;
   top: 523px;
 }
+
 .scale-6 {
   width: 250px;
   left: 122px;
   top: 600px;
 }
+
 .scale-7 {
   width: 451px;
   left: 122px;
   top: 669px;
 }
+
 .octopus__eye {
   border: 2px solid yellowgreen;
   box-sizing: border-box;
@@ -196,6 +223,7 @@ body {
   top: 25%;
   background-color: black;
 }
+
 .value {
   color: black;
   background-color: transparent;
@@ -230,7 +258,7 @@ body {
 
 .information {
   position: absolute;
-  bottom: 0;
+  bottom: 322px;
 }
 
 .information__text {
@@ -264,4 +292,8 @@ body {
   width: 461px;
   left: 512px;
   top: 806px;
+}
+
+.designation {
+  visibility: hidden;
 }
